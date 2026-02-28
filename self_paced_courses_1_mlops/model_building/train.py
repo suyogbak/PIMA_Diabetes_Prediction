@@ -86,7 +86,7 @@ print(classification_report(ytest, y_pred_test))
 joblib.dump(best_model, "best_pima_diabetes_model_v1.joblib")
 
 # Upload to Hugging Face
-repo_id = "PASTE_YOUR_HUGGING_FACE_USER_NAME/PIMA-Diabetes-Prediction"                                         # enter the Hugging Face username here
+repo_id = "suyogbak/PIMA-Diabetes-Prediction"                                         # enter the Hugging Face username here
 repo_type = "model"
 
 api = HfApi(token=os.getenv("HF_TOKEN"))
