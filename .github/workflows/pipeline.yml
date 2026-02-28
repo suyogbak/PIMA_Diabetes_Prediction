@@ -1,4 +1,3 @@
-```
 name: MLOps pipeline
 
 on:
@@ -55,4 +54,4 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: python self_paced_courses_1_mlops/hosting/hosting.py
 
-```
+
